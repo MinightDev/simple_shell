@@ -15,6 +15,16 @@ A custom shell implemented in C that supports executing commands, handling envir
 
 The custom shell supports basic shell commands and built-in commands. You can execute external commands and use the built-in commands by typing them into the shell.
 
+## Compiling
+
+To compile the shell, run:
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
+```
+
+
 Example of built-in commands:
 - `echo [text]`: Display text to the console.
 - `setenv [variable] [value]`: Set or update an environment variable.
