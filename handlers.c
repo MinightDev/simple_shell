@@ -34,7 +34,7 @@ void handle_exit(char **args)
 	}
 	else
 	{
-		exit(EXIT_SUCCESS);
+		exit(0);
 	}
 }
 
