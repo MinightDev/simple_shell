@@ -94,7 +94,7 @@ void handle_setenv(char **args)
 {
 	if (args[1] == NULL || args[2] == NULL)
 	{
-		print_custom_err("Usage: setenv VARIABLE VALUE\n");
+		print_custom_err("setenv VARIABLE VALUE\n");
 		return;
 	}
 	if (_setenv(args[1], args[2]))
@@ -111,7 +111,7 @@ void handle_unsetenv(char **args)
 {
 	if (args[1] == NULL || args[2] != NULL)
 	{
-		print_custom_err("Usage: unsetenv VARIABLE\n");
+		print_custom_err("unsetenv VARIABLE\n");
 		return;
 	}
 	_unsetenv(args[1]);
