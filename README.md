@@ -18,7 +18,6 @@ The custom shell supports basic shell commands and built-in commands. You can ex
 ## Compiling
 
 To compile the shell, run:
-
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
